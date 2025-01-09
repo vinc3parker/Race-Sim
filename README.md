@@ -16,7 +16,6 @@ This project is predominantly written in JavaScript, with some HTML and JSON fil
     ```bash
     npm run dev
     or
-    ```bash
     npx vite
 
 
