@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules/
+
+# Build files and executables
+racesim.exe
+
+# Vite build files
+dist/
+
+# Environment variables
+.env

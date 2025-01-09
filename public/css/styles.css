@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+nav a.active {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #0056b3;
+}

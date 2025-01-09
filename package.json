@@ -1,0 +1,27 @@
+{
+  "name": "racesim-leaderboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "three": "^0.167.1"
+  },
+  "main": "server.js",
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "dependencies": {
+      "express": "latest"
+    }
+  }
+}
