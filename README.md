@@ -1,12 +1,24 @@
 # Race Sim Project Documentation
 
-## Overview
+## Technology Used
 This project is predominantly written in JavaScript, with some HTML and JSON files used for project setup. Key technologies include:
 - **Three.js**: A library used for handling 3D animations.
 - **Vite**: A Node.js-based build tool used to build the project and create an executable file.
-Once project is installed and dependencies added with npm, project can be launched in dev mode using either of the following:
->> npm run dev
->> npx vite
+
+### Installation and Running the Project
+
+1. **Install Dependencies**:  
+   After cloning the repository, navigate to the project directory and install dependencies using:
+   ```bash
+   npm install
+2. **Run in Development Mode**:
+    To launch the project in development mode, use either of the following commands:
+    ```bash
+    npm run dev
+    or
+    ```bash
+    npx vite
+
 
 ## Main Page Explanation
 - **Server**: The entry point is the `server.js` file located in the root directory. This file loads the `index.html` file, which in turn imports `src/main.js` as a module. The project’s functionality begins in `main.js`.
